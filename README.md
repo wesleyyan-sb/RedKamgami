@@ -23,6 +23,129 @@ The author does **not** encourage or endorse unauthorized access to computer sys
 
 ---
 
+# Installation & Usage
+
+RedKamgami supports **Windows**, **Linux**, and **macOS**.
+
+## 1. Download the Launcher
+
+Go to the project's **Releases** page and download the launcher for your operating system.
+
+---
+
+## 2. Make the Launcher Executable (Linux/macOS)
+
+If you're using Linux or macOS, grant execute permission:
+
+```bash
+chmod +x RedKamgami-linux-amd64
+```
+
+or
+
+```bash
+chmod +x RedKamgami-macos-amd64
+```
+
+---
+
+## 3. Launch RedKamgami
+
+Run the launcher.
+
+**Windows**
+
+```powershell
+.\RedKamgami-windows-amd64.exe
+```
+
+**Linux**
+
+```bash
+./RedKamgami-linux-amd64
+```
+
+**macOS**
+
+```bash
+./RedKamgami-macos-amd64
+```
+
+---
+
+## 4. Download the Wordlist
+
+From the launcher menu, choose the option to download the latest wordlist.
+
+The launcher will automatically:
+
+* Select an available mirror
+* Verify the download
+* Display download progress
+* Save the compressed archive (`.zst`)
+
+---
+
+## 5. Place the Downloaded File
+
+After the download is complete, ensure the downloaded `.zst` file is located in the **same directory as the launcher**.
+
+Example:
+
+```text
+RedKamgami/
+├── RedKamgami-linux-amd64
+└── RedKamgami-2026.07.zst
+```
+
+---
+
+## 6. Extract the Wordlist
+
+Run the launcher again and choose the **Extract Wordlist** option.
+
+The launcher will:
+
+* Verify the archive integrity
+* Decompress the `.zst` archive
+* Produce the final wordlist
+* Optionally remove the compressed archive after successful extraction
+
+Result:
+
+```text
+RedKamgami/
+├── RedKamgami-linux-amd64
+└── RedKamgami.txt
+```
+
+---
+
+## Updating
+
+Whenever a new release is available:
+
+1. Launch RedKamgami.
+2. The launcher checks for updates automatically.
+3. Download the latest compressed wordlist.
+4. Replace the old archive (if applicable).
+5. Use the launcher to extract the updated version.
+
+No manual decompression tools are required.
+
+---
+
+## Supported Platforms
+
+| Operating System | Supported |
+| ---------------- | --------- |
+| Windows          | ✅         |
+| Linux            | ✅         |
+| macOS            | ✅         |
+
+The launcher is distributed as a native executable for each supported platform and requires no additional runtime or dependencies.
+
+
 # Features
 
 * Massive password collection
