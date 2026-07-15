@@ -203,7 +203,7 @@ func (l *Launcher) loadConfig() error {
 			{Name: "MEGA", URL: "https://mega.nz/file/NB8XiQwT#_kokQOCwcPA3n_rKPQjEPoQlKDJHsqapwvN3Y1HwtOQ", Priority: 2},
 			{Name: "MediaFire", URL: "https://www.mediafire.com/file/nh64tkn5gb2uown/redkamgami.txt.zst/file", Priority: 3},
 			{Name: "OneDrive", URL: "https://onedrive.live.com/download?cid=YOUR_CID&resid=YOUR_RESID", Priority: 4},
-			{Name: "TeraBox", URL: "https://terabox.com/sharing/link?surl=YOUR_LINK", Priority: 5},
+			{Name: "TeraBox", URL: "https://1024terabox.com/s/1dksS6D7T3OtKg63RS-9EQA", Priority: 5},
 		}
 
 		data, err := json.MarshalIndent(defaultConfig, "", "  ")
