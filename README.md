@@ -75,41 +75,33 @@ Run the launcher.
 
 ## 4. Download the Wordlist
 
-From the launcher menu, choose the option to download the latest wordlist.
+From the launcher menu, choose the option `[1] Download RedKamgami`.
 
-The launcher will automatically:
+The launcher will:
 
-* Select an available mirror
-* Verify the download
-* Display download progress
-* Save the compressed archive (`.zst`)
+* Check the availability of mirrors;
+* Display the list of download mirrors;
+* You must choose a mirror to download the wordlist (~2GB compressed);
 
 ---
 
 ## 5. Place the Downloaded File
 
-After the download is complete, ensure the downloaded `.zst` file is located in the **same directory as the launcher**.
+After selecting the mirror, the launcher will open the download URL in your browser. You should download the wordlist and move it to the same directory as the launcher.
 
 Example:
 
 ```text
 RedKamgami/
 ├── RedKamgami-linux-amd64
-└── RedKamgami-2026.07.zst
+└── RedKamgami.zst
 ```
 
 ---
 
 ## 6. Extract the Wordlist
 
-Run the launcher again and choose the **Extract Wordlist** option.
-
-The launcher will:
-
-* Verify the archive integrity
-* Decompress the `.zst` archive
-* Produce the final wordlist
-* Optionally remove the compressed archive after successful extraction
+After that, the launcher will ask if the word list has been downloaded. You should confirm, and then it will automatically unzip your word list. But for that to happen, the word list must be in the same directory as the launcher!
 
 Result:
 
@@ -118,6 +110,8 @@ RedKamgami/
 ├── RedKamgami-linux-amd64
 └── RedKamgami.txt
 ```
+
+### That's it! The wordlist is ready to use, and if you don't want the launcher to modify it in any way (splitting, verification, compression, etc.), you can move it to any directory and start using it right away.
 
 ---
 
@@ -173,25 +167,6 @@ The build pipeline includes:
 * Validation
 * Statistics generation
 * Compression
-
----
-
-## Password Generator (Rust)
-
-A high-performance CLI application capable of generating millions of passwords with configurable options.
-
-Supported modes include:
-
-* Numeric only
-* Alphanumeric
-* Alphanumeric + symbols
-* Fully customizable character sets
-
-Designed for:
-
-* Speed
-* Low memory usage
-* Large-scale generation
 
 ---
 
