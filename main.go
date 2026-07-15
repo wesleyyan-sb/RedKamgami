@@ -200,7 +200,7 @@ func (l *Launcher) loadConfig() error {
 
 		defaultConfig := []Mirror{
 			{Name: "Google Drive", URL: "https://drive.google.com/file/d/1YWlEzLnMiRXtQmihPRB2ZJnZUV2CJ3VF/view?usp=sharing", Priority: 1},
-			{Name: "MEGA", URL: "https://mega.nz/file/YOUR_FILE_KEY", Priority: 2},
+			{Name: "MEGA", URL: "https://mega.nz/file/NB8XiQwT#_kokQOCwcPA3n_rKPQjEPoQlKDJHsqapwvN3Y1HwtOQ", Priority: 2},
 			{Name: "MediaFire", URL: "https://www.mediafire.com/file/nh64tkn5gb2uown/redkamgami.txt.zst/file", Priority: 3},
 			{Name: "OneDrive", URL: "https://onedrive.live.com/download?cid=YOUR_CID&resid=YOUR_RESID", Priority: 4},
 			{Name: "TeraBox", URL: "https://terabox.com/sharing/link?surl=YOUR_LINK", Priority: 5},
