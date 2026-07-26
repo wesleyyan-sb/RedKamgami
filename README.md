@@ -5,6 +5,8 @@
   </p>
 </p>
 
+### 4 GB (≈2 GB compressed) • 300M+ passwords • Duplicate-free • 6–14 characters passwords
+
 ---
 
 ## Disclaimer
