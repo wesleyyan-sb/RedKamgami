@@ -1,9 +1,7 @@
 # RedKamgami
 
 <p align="center">
-  <h1 align="center">🔴 RedKamgami</h1>
-  <p align="center">
-    A large-scale password wordlist
+  <img src="redkamgami.png" width="500" height="300">
   </p>
 </p>
 
